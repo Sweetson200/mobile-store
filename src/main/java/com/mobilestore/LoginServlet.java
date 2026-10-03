@@ -48,7 +48,7 @@ public class LoginServlet extends HttpServlet {
             return;
         }
 
-        String destination = credentialsMatch ? "/welcome.html" : "/unauthorized.html";
+        String destination = credentialsMatch ? "/welcome" : "/unauthorized.html";
         response.sendRedirect(request.getContextPath() + destination);
     }
 }

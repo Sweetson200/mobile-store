@@ -16,6 +16,16 @@
     </servlet-mapping>
 
     <servlet>
+        <servlet-name>MobileDetailsServlet</servlet-name>
+        <servlet-class>com.mobilestore.MobileDetailsServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>MobileDetailsServlet</servlet-name>
+        <url-pattern>/welcome</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <servlet-name>UserRegistrationServlet</servlet-name>
         <servlet-class>com.mobilestore.UserRegistrationServlet</servlet-class>
     </servlet>
